@@ -1,6 +1,6 @@
-from tkinter import *
 import turtle  
 from turtle import *   
+from tkinter import *
 
 width, height = 500, 500
 
@@ -9,6 +9,9 @@ game.setup(width,height) #set screen size to 500 x 500
 game.bgcolor("green") # set background color to green
 game.title("Snake Game") #set title
 
+
+# before making checkered background, get basics of turtle down
+'''
 background = Turtle(visible = False)
 background.shape('square')
 background.color('dark green')
@@ -22,14 +25,14 @@ for i in range((width * height) // 2 ):
                 background.right(90)
                 background.forward(10)
                 background.right(90)
-    
+'''
 
 
 
 
 
-snake = turtle.Turtle() #create turtle
-snake.shape("circle") #set turtle shape to circle
+snake = Turtle('circle') #create turtle
+
 
 
 
