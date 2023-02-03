@@ -13,5 +13,5 @@
 
 - Began to understand basic syntax around python (for loops and if statements) and the basics of the turtle module:
 
-    - `turtle.shape, color, speed, goto, setheading, penup/down, stamp, 
+    - `turtle.shape, color, speed, goto, setheading, penup/down, stamp,'
     
