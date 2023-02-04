@@ -14,4 +14,8 @@
 - Began to understand basic syntax around python (for loops and if statements) and the basics of the turtle module:
 
     - `turtle.shape, color, speed, goto, setheading, penup/down, stamp,'
+
+**Day 2:**
+
+-Successfully created a checkered board with the turtle module
     
