@@ -9,13 +9,13 @@
 - Gave up on learning about tkinter for now and moved on to creating the game w/ turtles for now
 - Tried to create a checkered pattern w/ turtle for game board. Failed.
 
-**Day 1:2/3/23**
+**Day 1:2/2/23**
 
 - Began to understand basic syntax around python (for loops and if statements) and the basics of the turtle module:
 
     - `turtle.shape, color, speed, goto, setheading, penup/down, stamp,'
 
-**Day 2: 2/4/23**
+**Day 2: 2/3/23**
 
 - Successfully created a checkered board with the turtle module
 
