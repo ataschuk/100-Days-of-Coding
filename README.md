@@ -21,6 +21,6 @@
 
 - Deleted game.py file because I decided to build off of the turtlePractice board.
 
-- To begin learning tkinter, I'll use a website I found  that has tkinter tutorials
+- Began to learn tkinter
 
     
