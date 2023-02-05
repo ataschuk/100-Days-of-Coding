@@ -23,4 +23,8 @@
 
 - Began to learn tkinter
 
+**Day 3: 2/4/23**
+
+- 
+
     
