@@ -25,6 +25,10 @@
 
 **Day 3: 2/4/23**
 
-- 
+- Read about different tkkinter commands and continued to get a basic understanding of the tkinter syntax
 
-    
+- Began to use the [Official Tk Commands Reference Menu](https://www.tcl.tk/man/tcl8.6/TkCmd/contents.html) to learn about the different commands and widgets tkinter offers
+
+- I also found a solid website with some explinations of [tkinter](https://www.studytonight.com/tkinter)
+   
+- Got a decent understanding of the label widget down.
