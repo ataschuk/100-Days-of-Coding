@@ -37,4 +37,16 @@
 
 **Day 4: 2/5/23**
 
--Learned about buttons and frames 
+- Learned about buttons and frames   
+
+**Day 5: 2/6/23**
+
+- Figured out how to have a button open a new screen when pressed.
+
+- Added a "Back" button that closes the "rules" Toplevel when pressed.
+
+- Added a "Quit Game" button that closes the program when pressed.
+
+- `.grid()` will not work Toplevel (at least I couldn't figure out how to make it work so I'm assuming that only works with windows)
+
+- I have a decent understanding of basic widgets such as `Button`, `Label`, `Frame`, `Title` and what a window is.
