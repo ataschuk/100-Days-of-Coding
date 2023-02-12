@@ -9,7 +9,8 @@ screen.setup(WIDTH + 4, HEIGHT + 8) # setsthe amount of area that the turtle can
 screen.setworldcoordinates(0, 0, WIDTH,HEIGHT) # sets up a user-defined coordiate system with 0,0 in the bottom right corner and the top right (x,y) as 
                                                # Width and Height
 screen.title("Turtle Practice") # sets the title on the window
-
+doneDraw1 = False
+doneDraw2 = False
 tile1 = Turtle() # create new turtle 
 tile1.shapesize(3,3,0) # set the size of the turtle to 60 x 60 pixels
 tile1.shape('square') # set turtle shape to a square
@@ -17,7 +18,7 @@ tile1.speed(0) # this boy fast as hell
 tile1.penup() #hide turtle lines
 tile1.color('green') #turtle color is green
 tile1.setpos(30, 585) #set turtle position to top right corner
-tile1._tracer(0,0) # instantly create the drawing without any animation
+tile1._tracer(0) # instantly create the drawing without any animation
 
 for i in range(110): # function that draws a  green square
     if tile1.xcor() > 661: # if the turtle gets past a certain coordinate, have it go to the next line down and do a 180 degree turn
@@ -35,6 +36,8 @@ for i in range(110): # function that draws a  green square
         tile1.forward(61)
     else:
         tile1.forward(61)
+    if i == 110:
+        doneDraw1 = True
 
 
 tile2 = Turtle() # create new turtle 
@@ -45,7 +48,7 @@ tile2.penup() #hide turtle lines
 tile2.color('dark green') #turtle color is green
 tile2.setpos(30, 585) #set turtle position to top right corner
 tile2.setheading(0) # face turtle east
-tile2._tracer(0.0) # instantly create the drawing without any animation
+tile2._tracer(0) # instantly create the drawing without any animation
 
 
 for j in range(110): # function that draws a square
@@ -64,5 +67,15 @@ for j in range(110): # function that draws a square
         tile2.forward(61)
     else:
         tile2.forward(61)
+    if j == 110:
+        doneDraw2 = True()
+
+while doneDraw1 == True and doneDraw2 == True:
+    snakeHead = Turtle()
+    turtle.register_shape("snake_head.gif")
+    snakeHead.shape("snake_head.gif")
+    snakeHead.penup()
+    snakeHead.speed(0)
+    snakeHead.setpos(340, 340) #set turtle position to top right corner
 
 turtle.done() # keeps the screen open for more than 1 millisecond
