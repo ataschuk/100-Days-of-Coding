@@ -13,6 +13,8 @@
 
 - For some reason, the snake head is being drawn under the checkered turtles so it is not visible. I tried moving around where the turtle is defined and drawn, but it didn't change anything. I think it may have something to do with the fact that the checkered turtles utilize the "stamp" function in python. I might have to replace them with the fill function which will be a pain and I'm leaving for next time.
 
+- I also realized that I made both the game board and snake green, so I'll have to redraw the snake body and head tomorrow.
+
 **Day 5: 2/6/23**
 
 - Figured out how to have a button open a new screen when pressed.
