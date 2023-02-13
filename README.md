@@ -1,5 +1,17 @@
 # 100-Days-of-Coding Logbook
 
+**Day 12: 2/13/23**
+
+- Missed yesterday. Sorry
+
+- Plans for today:
+
+- [ ] Redraw snake head and body
+
+- [ ] Change code that draws game board to use `fill` instead of `stamp`
+
+- [ ] Resize main screen that has title screen, rules, play game, and quit button
+
 **Day 10: 2/11/23**
 
 - Missed the past 5 days. My fault.
@@ -11,7 +23,7 @@
 ![This is the head](/snake_head.gif)
 ![This is the body](/snake_body.gif)
 
-- For some reason, the snake head is being drawn under the checkered turtles so it is not visible. I tried moving around where the turtle is defined and drawn, but it didn't change anything. I think it may have something to do with the fact that the checkered turtles utilize the "stamp" function in python. I might have to replace them with the fill function which will be a pain and I'm leaving for next time.
+- For some reason, the snake head is being drawn under the checkered turtles so it is not visible. I tried moving around where the turtle is defined and drawn, but it didn't change anything. I think it may have something to do with the fact that the checkered turtles utilize the `stamp` function in python. I might have to replace them with the `fill` function which will be a pain and I'm leaving for next time.
 
 - I also realized that I made both the game board and snake green, so I'll have to redraw the snake body and head tomorrow.
 
