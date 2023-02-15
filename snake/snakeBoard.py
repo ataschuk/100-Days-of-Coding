@@ -17,9 +17,7 @@ turtle.screensize(canvwidth=WIDTH, canvheight=HEIGHT)
 turtle.setworldcoordinates(0, 0, WIDTH, HEIGHT)
 turtle.title("Turtle Practice")
 
-doneDrawOne = False
 
-"""
 tile1 = turtle.Turtle()  # create new turtle
 # tile1.shapesize(3,3,0) # set the size of the turtle to 60 x 60 pixels
 tile1.speed(0)  # this boy fast as hell
@@ -83,7 +81,7 @@ for j in range(110):  # function that draws a square
         tile2.end_fill()
     else:
         tile2.forward(61)
-"""
+
 """
 snakeHead = turtle.Turtle()  # create new turtle
 turtle.register_shape('snake_head.gif')
@@ -97,8 +95,8 @@ snakeHead._tracer(0)  # instantly create the drawing without any animation
 turtle.onscreenclick(lambda x, y: tofront(snakeHead))
 """
 tile3 = turtle.Turtle()  # create new turtle
-turtle.register_shape('snake_head.gif')
-tile3.shape('snake_head.gif')
+turtle.register_shape('snake/snake_head.gif')
+tile3.shape('snake/snake_head.gif')
 tile3.shapesize(2, 2, 0)  # set the size of the turtle to 60 x 60 pixels
 #tile3.color('black')
 tile3.speed(0)  # this boy fast as hell

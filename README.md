@@ -10,6 +10,9 @@
 
 - [X] Redraw snake head and body
 
+![This is the head](/snake/snake_head.gif)
+![This is the body](/snake/snake_body.gif)
+
 - [ ] Change code that draws game board to use `fill` instead of `stamp`
 
 - [ ] Resize main screen that has title screen, rules, play game, and quit button
