@@ -1,16 +1,34 @@
 # 100-Days-of-Coding Logbook
 
+**Day 13: 2/14/23**
+
+- Missed yesterday too. :(
+
+- I'm not really consitent with this, so instead of trying to code for an hour a day, I'm just gonna code whenever I have time.
+
+- Plans for today:
+
+- [X] Redraw snake head and body
+
+- [ ] Change code that draws game board to use `fill` instead of `stamp`
+
+- [ ] Resize main screen that has title screen, rules, play game, and quit button
+
+- I started to replace `stamp` with `fill`, and although I would need to redo the conditions for drawing the entire board, I don't think that `stamp` is the problem because the snake turtle still isnt showing up after part of the board is drawn.
+
+- I give up for the night
+
 **Day 12: 2/13/23**
 
 - Missed yesterday. Sorry
 
 - Plans for today:
 
-- [ ] Redraw snake head and body
+- ~~[ ] Redraw snake head and body~~
 
-- [ ] Change code that draws game board to use `fill` instead of `stamp`
+- ~~[ ] Change code that draws game board to use `fill` instead of `stamp`~~
 
-- [ ] Resize main screen that has title screen, rules, play game, and quit button
+- ~~[ ] Resize main screen that has title screen, rules, play game, and quit button~~
 
 **Day 10: 2/11/23**
 
