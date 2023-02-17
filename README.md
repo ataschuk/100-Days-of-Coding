@@ -4,7 +4,7 @@
 
 - Plans for today:
 
-[X] Get custom snake head working
+- [X] Get custom snake head working
 
 - Decided to restart back to before I began to try to use a custom turtle head b/c my code got too messy.
 
