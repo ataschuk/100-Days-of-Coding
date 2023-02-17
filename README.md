@@ -1,5 +1,24 @@
 # 100-Days-of-Coding Logbook
 
+**Day 14: 2/16/23**
+
+- Plans for today:
+[X] Get custom snake head working
+
+- Decided to restart back to before I began to try to use a custom turtle head b/c my code got too messy.
+
+- I've narrowed down the issue to 3 lines of code:
+
+```Python
+screen.setup(WIDTH + 4, HEIGHT + 8) 
+screen.setworldcoordinates(0, 0, WIDTH,HEIGHT)
+screen.title("Turtle Practice") 
+```
+
+- I'm not sure which line(s) is/are causing the snake head to not show up though.
+
+- So it turns out that those 3 lines were not the issue at all. It was `tile1._tracer(0)` and `tile2._tracer(0)` which was the problem, or rather, the fact that the `snakeHead` turtle doesn't have a `_tracer()` function. `_tracer()` has the parameters *n = None* and *delay = None*. *n* can either be a 0 or a 1 where 0 means automatic screen updates are off and 1 means they're on. If you use a number larger than 1, it will only update every $n^{th}$ time (e.g. if n = 3 only every third update would actually happen). It seems that calling `tile1._tracer(0)` affects all turtles, so `tile2._tracer(0)` actually had no effect at all. `tile1.tracer(0)` has the same effect as `turtle.tracer(0)`, so I changed that. The delay function affects the time between turtle movements (this is different from `turtle.speed()`) and is usually used to control timing of a turtle's movements (`turtle.speed()` is usually used to control turtle movement). The fix to this problem that has taken well over 4 hours of trying to fix out is literally just adding `turtle.tracer(0)` after I create my snakeHead turtle. That's it.
+
 **Day 13: 2/14/23**
 
 - Missed yesterday too. :(
@@ -10,16 +29,16 @@
 
 - [X] Redraw snake head and body
 
-![This is the head](/snake/snake_head.gif)
-![This is the body](/snake/snake_body.gif)
+![This is the head](/snake/snake_head.gif "Snake Head")
+![This is the body](/snake/snake_body.gif "Snake Body")
 
-- [ ] Change code that draws game board to use `fill` instead of `stamp`
+- [ ] ~~Change code that draws game board to use `fill` instead of `stamp`~~
 
 - [ ] Resize main screen that has title screen, rules, play game, and quit button
 
 - I started to replace `stamp` with `fill`, and although I would need to redo the conditions for drawing the entire board, I don't think that `stamp` is the problem because the snake turtle still isnt showing up after part of the board is drawn.
 
-- I give up for the night
+- I give up for the night: Possible solution for next time: Draw snake head and body using turtle screen (e.g. `screen = turtle.Screen()`)
 
 **Day 12: 2/13/23**
 
